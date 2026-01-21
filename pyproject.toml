@@ -4,8 +4,15 @@ version = "0.1.0"
 description = "Dynamic dataset iterator factory for VLMHyperBench"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pydantic>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
 
 [build-system]
-requires = ["uv>=0.9.26"]
-build-backend = "uv.build"
+requires = ["uv_build>=0.9.26"]
+build-backend = "uv_build"
