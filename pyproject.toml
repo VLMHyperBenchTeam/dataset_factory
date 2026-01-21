@@ -1,0 +1,11 @@
+[project]
+name = "dataset_factory"
+version = "0.1.0"
+description = "Dynamic dataset iterator factory for VLMHyperBench"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["uv>=0.9.26"]
+build-backend = "uv.build"
